@@ -7,7 +7,9 @@ round ran.
 **Result: all three experiments tied.** The final one scored 43/44 against 42/44 on the primary
 metric, a difference of one test.
 
-Discussion with the full write-up: <!-- DISCUSSION_URL -->
+Full write-up and findings: **https://github.com/compozy/compozy/discussions/664**
+
+Related defect found along the way: [compozy/compozy#663](https://github.com/compozy/compozy/issues/663)
 
 ---
 

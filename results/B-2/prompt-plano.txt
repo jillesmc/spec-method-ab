@@ -1,0 +1,27 @@
+Use a skill openspec-propose para planejar o trabalho abaixo como um change chamado 'kvstore'. Nao implemente nada ainda: pare quando proposal, design, specs e tasks estiverem escritos em openspec/changes/kvstore/.
+
+--- ENUNCIADO ---
+# kvstore
+
+Temos um serviço que guarda estado em disco: configuração, contadores, posição de processamento.
+Hoje isso é um JSON que a gente reescreve inteiro a cada mudança.
+
+Esse serviço **reinicia sozinho várias vezes por dia**, por deploy e por OOM. Já aconteceu de ele
+voltar com o arquivo zerado e a gente perder tudo. Quando o serviço responde "gravei" para quem
+chamou, **aquilo tem que estar lá depois do restart**, aconteça o que acontecer.
+
+Queria isso como um pacote com linha de comando:
+
+```
+python -m kvstore <diretorio> set <chave> <valor>
+python -m kvstore <diretorio> get <chave>
+python -m kvstore <diretorio> del <chave>
+python -m kvstore <diretorio> list
+```
+
+Os valores são texto e podem ser grandes. A quantidade de chaves e de gravações cresce com o
+tempo, e ninguém limpa nada.
+
+O diretório é nosso, ninguém mais mexe nele.
+
+Use só a biblioteca padrão do Python. `make test` tem que passar.

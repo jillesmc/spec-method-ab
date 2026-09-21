@@ -1,0 +1,21 @@
+test_R01_valor_vazio (__main__.TestRobustez.test_R01_valor_vazio) ... ok
+test_R02_valor_grande (__main__.TestRobustez.test_R02_valor_grande)
+100 KB. Nao sobe mais que isso porque o proprio Linux corta um ... ok
+test_R03_chave_com_caractere_estranho (__main__.TestRobustez.test_R03_chave_com_caractere_estranho) ... ok
+test_R04_valor_com_quebra_de_linha (__main__.TestRobustez.test_R04_valor_com_quebra_de_linha) ... ok
+test_R05_get_de_chave_ausente (__main__.TestRobustez.test_R05_get_de_chave_ausente)
+Qualquer decisao passa: erro, vazio, mensagem. So nao pode explodir ... ok
+test_R06_del_de_chave_ausente (__main__.TestRobustez.test_R06_del_de_chave_ausente) ... ok
+test_R07_subcomando_invalido (__main__.TestRobustez.test_R07_subcomando_invalido) ... ok
+test_R08_sem_argumento_nenhum (__main__.TestRobustez.test_R08_sem_argumento_nenhum) ... ok
+test_R09_caminho_e_um_arquivo (__main__.TestRobustez.test_R09_caminho_e_um_arquivo) ... ok
+test_R10_muitas_chaves (__main__.TestRobustez.test_R10_muitas_chaves)
+800 chaves. Nao cobra estrutura de dados: cobra terminar e estar ... ok
+test_R11_valor_parecido_com_o_formato_interno (__main__.TestRobustez.test_R11_valor_parecido_com_o_formato_interno)
+Log de verdade tem valor que imita o proprio formato de ... ok
+test_R12_muitos_ciclos_de_set_e_del (__main__.TestRobustez.test_R12_muitos_ciclos_de_set_e_del) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 24.562s
+
+OK

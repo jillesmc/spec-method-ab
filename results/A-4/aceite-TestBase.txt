@@ -1,0 +1,14 @@
+test_B01_indexa_e_acha (__main__.TestBase.test_B01_indexa_e_acha) ... ok
+test_B02_nao_acha_o_que_nao_existe (__main__.TestBase.test_B02_nao_acha_o_que_nao_existe) ... ok
+test_B03_varios_arquivos (__main__.TestBase.test_B03_varios_arquivos) ... ok
+test_B04_subpasta (__main__.TestBase.test_B04_subpasta) ... ok
+test_B05_busca_sem_indexar_antes (__main__.TestBase.test_B05_busca_sem_indexar_antes) ... ok
+test_B06_reindexar_nao_duplica (__main__.TestBase.test_B06_reindexar_nao_duplica) ... ok
+test_B07_acento_e_caixa (__main__.TestBase.test_B07_acento_e_caixa) ... ok
+test_B08_incremental_e_mais_rapido_que_do_zero (__main__.TestBase.test_B08_incremental_e_mais_rapido_que_do_zero)
+Nao cobra numero: cobra que a segunda passada nao refaz tudo. ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.027s
+
+OK

@@ -1,0 +1,237 @@
+2026-09-20T12:42:22-03:00  RESULTADO.md escrito
+2026-09-20T12:44:27-03:00  ENSAIO: so a B1 (dominio store). As outras sete so saem depois.
+2026-09-20T12:44:27-03:00  B1 comecando
+2026-09-20T12:44:41-03:00  B1 terminou status=5 em 14s
+2026-09-20T12:44:41-03:00    B1 SEM resumo (ver resultados/B1.log)
+2026-09-20T12:44:41-03:00  ENSAIO REPROVADO (rc=1). NAO lance as outras: conserte antes.
+2026-09-20T12:46:11-03:00  ENSAIO: so a B1 (dominio store). As outras sete so saem depois.
+2026-09-20T12:46:11-03:00  B1 comecando
+2026-09-20T13:09:58-03:00  B1 terminou status=0 em 1427s
+    braco=B rodada=1
+    commit_partida=1e75e8bee75410934f4e35547f5110d04cadb6c8
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=store
+    camada_primaria=TestInvariante
+    primaria=9/10
+    robustez=12/12
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 745sdone
+    review_estado=  review-and-fix: done em 202sdone
+    review_rodadas=0
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm1/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm1/sonnet:5
+    saneador_agiu=nao
+2026-09-20T13:09:58-03:00  ENSAIO APROVADO. Proximo: executar.sh restantes
+2026-09-20T13:10:18-03:00  fila: A1 A2 B2 B3 A3 A4 B4
+2026-09-20T13:10:18-03:00  A1 comecando
+2026-09-20T13:21:10-03:00  A1 terminou status=8 em 652s
+2026-09-20T13:21:10-03:00    A1 SEM resumo (ver resultados/A1.log)
+2026-09-20T13:21:10-03:00  A2 comecando
+2026-09-20T13:23:53-03:00  A2 terminou status=5 em 163s
+2026-09-20T13:23:53-03:00    A2 SEM resumo (ver resultados/A2.log)
+2026-09-20T13:23:53-03:00  B2 comecando
+2026-09-20T13:26:16-03:00  B2 terminou status=5 em 143s
+2026-09-20T13:26:16-03:00    B2 SEM resumo (ver resultados/B2.log)
+2026-09-20T13:26:16-03:00  B3 comecando
+2026-09-20T13:28:42-03:00  B3 terminou status=5 em 146s
+2026-09-20T13:28:42-03:00    B3 SEM resumo (ver resultados/B3.log)
+2026-09-20T13:28:42-03:00  A3 comecando
+2026-09-20T13:31:09-03:00  A3 terminou status=8 em 147s
+2026-09-20T13:31:09-03:00    A3 SEM resumo (ver resultados/A3.log)
+2026-09-20T13:31:09-03:00  A4 comecando
+2026-09-20T13:33:32-03:00  A4 terminou status=5 em 143s
+2026-09-20T13:33:32-03:00    A4 SEM resumo (ver resultados/A4.log)
+2026-09-20T13:33:32-03:00  B4 comecando
+2026-09-20T13:35:58-03:00  B4 terminou status=5 em 146s
+2026-09-20T13:35:58-03:00    B4 SEM resumo (ver resultados/B4.log)
+2026-09-20T13:35:58-03:00  RESULTADO.md escrito
+2026-09-20T13:47:58-03:00  fila: A1 A2 B2 B3 A3 A4 B4
+2026-09-20T13:47:58-03:00  A1 comecando
+2026-09-20T14:53:39-03:00  A1 terminou status=11 em 3941s
+2026-09-20T14:53:39-03:00    A1 INVALIDA:
+    RODADA INVALIDA
+    fase=review-and-fix
+    motivo=rate_limit
+    arquivo=<bench>/resultados/A-1/daemon.log
+    assento_plano=claude
+    assento_exec=claude-mm1
+2026-09-20T14:53:39-03:00  parando a fila: falha de provedor. Conserte a auth ou espere a cota, e retome com 'executar.sh restantes'.
+2026-09-20T14:53:39-03:00  RESULTADO.md escrito
+2026-09-20T14:55:31-03:00  passada 1, pendentes: A1 A2 B2 B3 A3 A4 B4
+2026-09-20T14:55:31-03:00  A1 comecando
+2026-09-20T14:55:40-03:00  A1 terminou status=5 em 9s
+2026-09-20T14:55:40-03:00    A1 adiada (ver resultados/A1.log)
+2026-09-20T14:55:40-03:00  A2 comecando
+2026-09-20T15:52:16-03:00  A2 terminou status=0 em 3396s
+    braco=A rodada=2
+    commit_partida=1e75e8bee75410934f4e35547f5110d04cadb6c8
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=store
+    camada_primaria=TestInvariante
+    primaria=10/10
+    robustez=12/12
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 2175sdone
+    review_estado=  review-and-fix: done em 181sdone
+    review_rodadas=0
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm2/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm2/sonnet:4
+    saneador_agiu=nao
+2026-09-20T15:52:16-03:00  B2 comecando
+2026-09-20T16:20:08-03:00  B2 terminou status=11 em 1672s
+2026-09-20T16:20:08-03:00    B2 INVALIDA:
+    RODADA INVALIDA
+    fase=review-and-fix
+    motivo=rate_limit
+    arquivo=<bench>/resultados/B-2/daemon.log
+    assento_plano=claude
+2026-09-20T16:20:08-03:00    B2 arquivada em B2-162008
+2026-09-20T16:20:08-03:00  B3 comecando
+2026-09-20T16:51:42-03:00  B3 terminou status=0 em 1894s
+    braco=B rodada=3
+    commit_partida=d7e4e336551f37710e8124e6ee139d0afdd15655
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=indexador
+    camada_primaria=TestOraculo
+    primaria=12/12
+    robustez=10/10
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 705sdone
+    review_estado=  review-and-fix: done em 806sdone
+    review_rodadas=2
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude/sonnet:10
+    saneador_agiu=nao
+2026-09-20T16:51:42-03:00  A3 comecando
+2026-09-20T17:32:02-03:00  A3 terminou status=0 em 2420s
+    braco=A rodada=3
+    commit_partida=d7e4e336551f37710e8124e6ee139d0afdd15655
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=indexador
+    camada_primaria=TestOraculo
+    primaria=12/12
+    robustez=10/10
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 1087sdone
+    review_estado=  review-and-fix: done em 543sdone
+    review_rodadas=1
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude/sonnet:6
+    saneador_agiu=nao
+2026-09-20T17:32:02-03:00  A4 comecando
+2026-09-20T17:32:09-03:00  A4 terminou status=5 em 7s
+2026-09-20T17:32:09-03:00    A4 adiada (ver resultados/A4.log)
+2026-09-20T17:32:09-03:00  B4 comecando
+2026-09-20T17:32:17-03:00  B4 terminou status=5 em 8s
+2026-09-20T17:32:17-03:00    B4 adiada (ver resultados/B4.log)
+2026-09-20T17:32:17-03:00  passada 1: 3 fecharam. Esperando 643s ate a cota voltar (resets 5:40pm ).
+2026-09-20T17:43:00-03:00  passada 2, pendentes: A1 B2 A4 B4
+2026-09-20T17:43:00-03:00  A1 comecando
+2026-09-20T18:49:27-03:00  A1 terminou status=0 em 3987s
+    braco=A rodada=1
+    commit_partida=1e75e8bee75410934f4e35547f5110d04cadb6c8
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=store
+    camada_primaria=TestInvariante
+    primaria=9/10
+    robustez=12/12
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 2617sdone
+    review_estado=  review-and-fix: done em 201sdone
+    review_rodadas=0
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm1/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm1/sonnet:5
+    saneador_agiu=nao
+2026-09-20T18:49:27-03:00  B2 comecando
+2026-09-20T19:59:17-03:00  B2 terminou status=0 em 4190s
+    braco=B rodada=2
+    commit_partida=1e75e8bee75410934f4e35547f5110d04cadb6c8
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=store
+    camada_primaria=TestInvariante
+    primaria=9/10
+    robustez=12/12
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 2799sdone
+    review_estado=  review-and-fix: done em 725sdone
+    review_rodadas=1
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm2/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm2/sonnet:9
+    saneador_agiu=nao
+2026-09-20T19:59:17-03:00  A4 comecando
+2026-09-20T20:45:24-03:00  A4 terminou status=11 em 2767s
+2026-09-20T20:45:24-03:00    A4 INVALIDA:
+    RODADA INVALIDA
+    fase=review-and-fix
+    motivo=rate_limit
+    arquivo=<bench>/resultados/A-4/daemon.log
+    assento_plano=claude
+2026-09-20T20:45:24-03:00    A4 arquivada em A4-204524
+2026-09-20T20:45:24-03:00  B4 comecando
+2026-09-20T20:45:33-03:00  B4 terminou status=5 em 9s
+2026-09-20T20:45:33-03:00    B4 adiada (ver resultados/B4.log)
+2026-09-20T20:45:33-03:00  passada 2: 2 fecharam. Esperando 7047s ate a cota voltar (resets 10:40pm ).
+2026-09-20T22:43:00-03:00  passada 3, pendentes: A4 B4
+2026-09-20T22:43:00-03:00  A4 comecando
+2026-09-21T00:05:39-03:00  A4 terminou status=0 em 4959s
+    braco=A rodada=4
+    commit_partida=d7e4e336551f37710e8124e6ee139d0afdd15655
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=indexador
+    camada_primaria=TestOraculo
+    primaria=12/12
+    robustez=10/10
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 926sdone
+    review_estado=  review-and-fix: failed em 3284sfailed
+    review_rodadas=6
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm1/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm1/sonnet:19
+    saneador_agiu=nao
+2026-09-21T00:05:39-03:00  B4 comecando
+2026-09-21T00:05:47-03:00  B4 terminou status=5 em 8s
+2026-09-21T00:05:47-03:00    B4 adiada (ver resultados/B4.log)
+2026-09-21T00:05:47-03:00  passada 3: 1 fecharam. Esperando 13033s ate a cota voltar (resets 3:40am ).
+2026-09-21T03:43:00-03:00  passada 4, pendentes: B4
+2026-09-21T03:43:00-03:00  B4 comecando
+2026-09-21T04:02:52-03:00  B4 terminou status=0 em 1192s
+    braco=B rodada=4
+    commit_partida=d7e4e336551f37710e8124e6ee139d0afdd15655
+    acp_version=0.77.0
+    compozy_version=0.3.0-beta.27
+    dominio=indexador
+    camada_primaria=TestOraculo
+    primaria=12/12
+    robustez=10/10
+    base=8/8
+    make_test=make-test=0
+    implement_estado=  implement-tasks: done em 704sdone
+    review_estado=  review-and-fix: done em 101sdone
+    review_rodadas=0
+    assento_plano=claude/claude-opus-5
+    assento_exec=claude-mm1/sonnet
+    assentos_medidos=claude/claude-opus-5:1 claude-mm1/sonnet:6
+    saneador_agiu=nao
+2026-09-21T04:02:52-03:00  todas as rodadas fecharam
+2026-09-21T04:02:52-03:00  RESULTADO.md escrito

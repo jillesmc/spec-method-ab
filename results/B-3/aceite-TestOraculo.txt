@@ -1,0 +1,22 @@
+test_O01_arquivo_novo (__main__.TestOraculo.test_O01_arquivo_novo) ... ok
+test_O02_arquivo_apagado (__main__.TestOraculo.test_O02_arquivo_apagado) ... ok
+test_O03_conteudo_mudou_com_data_nova (__main__.TestOraculo.test_O03_conteudo_mudou_com_data_nova) ... ok
+test_O04_conteudo_mudou_com_data_PRESERVADA (__main__.TestOraculo.test_O04_conteudo_mudou_com_data_PRESERVADA)
+O caso que o enunciado descreve: o conteudo mudou e a data voltou ... ok
+test_O05_conteudo_mudou_no_mesmo_segundo (__main__.TestOraculo.test_O05_conteudo_mudou_no_mesmo_segundo)
+Sem forcar data nenhuma: so rapido. Cache por mtime de resolucao ... ok
+test_O06_mesmo_tamanho_conteudo_diferente (__main__.TestOraculo.test_O06_mesmo_tamanho_conteudo_diferente) ... ok
+test_O07_data_nova_sem_mudar_conteudo (__main__.TestOraculo.test_O07_data_nova_sem_mudar_conteudo)
+O outro lado do aviso do enunciado: arquivo com data nova que nao ... ok
+test_O08_arquivo_renomeado (__main__.TestOraculo.test_O08_arquivo_renomeado) ... ok
+test_O09_troca_de_conteudo_entre_dois_arquivos (__main__.TestOraculo.test_O09_troca_de_conteudo_entre_dois_arquivos) ... ok
+test_O10_data_ANTIGA_com_conteudo_novo (__main__.TestOraculo.test_O10_data_ANTIGA_com_conteudo_novo)
+Checkout de branch antiga: conteudo novo, data velha. ... ok
+test_O11_subpasta_inteira_trocada (__main__.TestOraculo.test_O11_subpasta_inteira_trocada) ... ok
+test_O12_sequencia_longa_de_mudancas (__main__.TestOraculo.test_O12_sequencia_longa_de_mudancas)
+Dez rodadas de mudancas variadas, cada uma seguida de um index ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 7.584s
+
+OK

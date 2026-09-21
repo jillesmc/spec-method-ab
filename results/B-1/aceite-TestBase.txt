@@ -1,0 +1,14 @@
+test_B01_set_e_get (__main__.TestBase.test_B01_set_e_get) ... ok
+test_B02_sobrescreve (__main__.TestBase.test_B02_sobrescreve) ... ok
+test_B03_del_remove (__main__.TestBase.test_B03_del_remove) ... ok
+test_B04_list_mostra_as_chaves (__main__.TestBase.test_B04_list_mostra_as_chaves) ... ok
+test_B05_list_nao_mostra_apagada (__main__.TestBase.test_B05_list_nao_mostra_apagada) ... ok
+test_B06_valor_com_espaco_e_acento (__main__.TestBase.test_B06_valor_com_espaco_e_acento) ... ok
+test_B07_diretorio_novo_e_criado (__main__.TestBase.test_B07_diretorio_novo_e_criado) ... ok
+test_B08_sobrevive_a_restart_normal (__main__.TestBase.test_B08_sobrevive_a_restart_normal)
+Processo novo a cada chamada ja prova isso, mas explicito e' melhor: ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 2.317s
+
+OK

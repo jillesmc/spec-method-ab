@@ -1,0 +1,17 @@
+braco=A rodada=2
+commit_partida=1e75e8bee75410934f4e35547f5110d04cadb6c8
+acp_version=0.77.0
+compozy_version=0.3.0-beta.27
+dominio=store
+camada_primaria=TestInvariante
+primaria=10/10
+robustez=12/12
+base=8/8
+make_test=make-test=0
+implement_estado=  implement-tasks: done em 2175sdone
+review_estado=  review-and-fix: done em 181sdone
+review_rodadas=0
+assento_plano=claude/claude-opus-5
+assento_exec=claude-mm2/sonnet
+assentos_medidos=claude/claude-opus-5:1 claude-mm2/sonnet:4
+saneador_agiu=nao

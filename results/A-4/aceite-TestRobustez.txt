@@ -1,0 +1,15 @@
+test_R01_pasta_vazia (__main__.TestRobustez.test_R01_pasta_vazia) ... ok
+test_R02_pasta_inexistente (__main__.TestRobustez.test_R02_pasta_inexistente) ... ok
+test_R03_arquivo_binario (__main__.TestRobustez.test_R03_arquivo_binario) ... ok
+test_R04_encoding_quebrado (__main__.TestRobustez.test_R04_encoding_quebrado) ... ok
+test_R05_arquivo_vazio (__main__.TestRobustez.test_R05_arquivo_vazio) ... ok
+test_R06_arquivo_grande (__main__.TestRobustez.test_R06_arquivo_grande) ... ok
+test_R07_nome_com_espaco_e_acento (__main__.TestRobustez.test_R07_nome_com_espaco_e_acento) ... ok
+test_R08_busca_vazia_ou_sem_argumento (__main__.TestRobustez.test_R08_busca_vazia_ou_sem_argumento) ... ok
+test_R09_subcomando_invalido (__main__.TestRobustez.test_R09_subcomando_invalido) ... ok
+test_R10_link_simbolico_quebrado (__main__.TestRobustez.test_R10_link_simbolico_quebrado) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.057s
+
+OK

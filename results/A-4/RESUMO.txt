@@ -1,0 +1,17 @@
+braco=A rodada=4
+commit_partida=d7e4e336551f37710e8124e6ee139d0afdd15655
+acp_version=0.77.0
+compozy_version=0.3.0-beta.27
+dominio=indexador
+camada_primaria=TestOraculo
+primaria=12/12
+robustez=10/10
+base=8/8
+make_test=make-test=0
+implement_estado=  implement-tasks: done em 926sdone
+review_estado=  review-and-fix: failed em 3284sfailed
+review_rodadas=6
+assento_plano=claude/claude-opus-5
+assento_exec=claude-mm1/sonnet
+assentos_medidos=claude/claude-opus-5:1 claude-mm1/sonnet:19
+saneador_agiu=nao

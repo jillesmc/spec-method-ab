@@ -1,0 +1,45 @@
+test_I01_cauda_com_lixo (__main__.TestInvariante.test_I01_cauda_com_lixo)
+Morte no meio de uma gravacao deixa registro pela metade. Reabrir ... ok
+test_I02_cauda_truncada (__main__.TestInvariante.test_I02_cauda_truncada)
+O outro lado do mesmo acidente: o registro final saiu cortado. ... FAIL
+test_I03_morte_no_meio_da_gravacao (__main__.TestInvariante.test_I03_morte_no_meio_da_gravacao)
+O teste central. Mata o processo em varios instantes diferentes ... ok
+test_I04_reabre_apos_morte (__main__.TestInvariante.test_I04_reabre_apos_morte)
+Mais fraco que o I03 de proposito: aqui so se cobra REABRIR sem ... ok
+test_I05_continua_gravavel_apos_morte (__main__.TestInvariante.test_I05_continua_gravavel_apos_morte)
+O store nao pode ficar travado. Depois do acidente, a vida segue. ... ok
+test_I06_arquivo_de_tamanho_zero (__main__.TestInvariante.test_I06_arquivo_de_tamanho_zero)
+Crash logo apos criar o arquivo e antes de escrever nele. ... ok
+test_I07_sobra_de_arquivo_temporario (__main__.TestInvariante.test_I07_sobra_de_arquivo_temporario)
+Morte durante rename deixa .tmp para tras. Reabrir tem que ignorar ... ok
+test_I08_morte_com_store_grande (__main__.TestInvariante.test_I08_morte_com_store_grande)
+O mesmo acidente do I03, agora com o store grande. ... ok
+test_I09_morte_durante_remocao (__main__.TestInvariante.test_I09_morte_durante_remocao) ... ok
+test_I10_store_e_realocavel (__main__.TestInvariante.test_I10_store_e_realocavel)
+Copiar o diretorio para outro lugar e abrir la tem que funcionar: ... ok
+
+======================================================================
+FAIL: test_I02_cauda_truncada (__main__.TestInvariante.test_I02_cauda_truncada)
+O outro lado do mesmo acidente: o registro final saiu cortado.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<bench>/fixture/store/aceite/test_aceite.py", line 392, in test_I02_cauda_truncada
+    self.conferir_todos(esperado, "apos truncar a cauda", tolerar={ultima})
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<bench>/fixture/store/aceite/test_aceite.py", line 185, in conferir_todos
+    self.assertFalse(
+    ~~~~~~~~~~~~~~~~^
+        perdidas,
+        ^^^^^^^^^
+        f"{len(perdidas)} de {len(esperado)} chaves CONFIRMADAS sumiram {quando}"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        f" (ex.: {perdidas[:5]})",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+AssertionError: ['k0054'] is not false : 1 de 60 chaves CONFIRMADAS sumiram apos truncar a cauda (ex.: ['k0054'])
+
+----------------------------------------------------------------------
+Ran 10 tests in 58.585s
+
+FAILED (failures=1)

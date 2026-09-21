@@ -1,0 +1,10 @@
+850bb51003cc2ca39fbb27fd25313b62  PRE-REGISTRO-V4.md
+35442d1924d8ee591d89d67a77deac65  rodar.sh
+0f3e2c07e60c4a9d9811caaaafdcad9b  executar.sh
+ed6fc322c3f16fdac04cd52214f5ef06  calibrar.sh
+7441a7d6e862aa53b3143fadb47e6d1f  fixture/store/ENUNCIADO.md
+3fb71211b459006844a08043d86df955  fixture/store/aceite/test_aceite.py
+147554b8eb6a7f1a19198b6d1011798b  fixture/indexador/ENUNCIADO.md
+b8f9396fefde1ae689619734d86dde9e  fixture/indexador/aceite/test_aceite.py
+fe7cf02fff95beb708f743646f3f9cc7  ../instrumento/sanear-tasks.py
+7fc411dff6c4743a893b217de8980e28  ../instrumento/openspec-importar.py

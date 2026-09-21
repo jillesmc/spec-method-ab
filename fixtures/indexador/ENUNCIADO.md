@@ -1,0 +1,24 @@
+# fidx
+
+Tenho uma pasta grande com arquivos de texto: notas, relatórios exportados, dumps de coisas.
+Quando preciso achar algo, faço `grep -r` e espero. Numa pasta desse tamanho, demora.
+
+Queria montar um índice e buscar nele:
+
+```
+python -m fidx <diretorio> index
+python -m fidx <diretorio> search <termo>
+```
+
+O `index` roda de novo toda hora, por cron. Reprocessar a pasta inteira a cada vez não faz
+sentido, já que quase nada muda entre uma rodada e outra. Só o que mudou deveria ser
+reprocessado.
+
+**Uma coisa importante sobre esses arquivos.** Eles chegam por rsync e por checkout de
+repositório, então **a data de modificação deles não é confiável**: já vi arquivo voltar com data
+antiga depois de mudar de conteúdo, e vi arquivo com data nova sem ter mudado nada. O que vale é
+o conteúdo.
+
+O resultado da busca tem que dizer em quais arquivos o termo aparece.
+
+Use só a biblioteca padrão do Python. `make test` tem que passar.
